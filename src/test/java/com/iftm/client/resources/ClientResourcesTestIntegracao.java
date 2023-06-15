@@ -188,7 +188,7 @@ public class ClientResourcesTestIntegracao {
     @Test
     public void testUpdateShouldReturnOkAndUpdatedProductForExistingId() throws Exception {
         ClientDTO clientDTO = new ClientDTO();
-        clientDTO.setId(1L);
+        clientDTO.setId(3L);
         clientDTO.setName("Lucas Ilussencio");
         clientDTO.setChildren(0);
         clientDTO.setCpf("10419244771");
